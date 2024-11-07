@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14
 RUN apt-get update 
 RUN apt-get install -y git imagemagick 
 RUN rm -rf /var/lib/apt/lists/*
